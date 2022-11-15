@@ -15,15 +15,15 @@ import javax.swing.JTextField;
 
 public class PanelMaker implements ActionListener {
 
-	JButton button;
 	JLabel labelDays;
-	JLabel counterLabel;
-	JPanel panel;
-	JTextField addActivity;
-	private int counter = 0;
 	JLabel dateText;
-	JCheckBox activity;
 	JPanel activityPanel;
+	JTextField addActivity;
+	JCheckBox activity;
+	JLabel counterLabel;
+	private int counter = 0;
+	JButton button;
+	JPanel panel;
 
 	PanelMaker(JPanel groupPanel, String days, int date) {
 
